@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div id="page-title">
+      <h1>BeSanta : Donation System</h1>
+      <p class="slogan">Let's be someone's Santa!</p>
+    </div>
+  </div>
+
+  <div class="Forms">
+    <h1>Sign Up</h1>
+    <form class="Register-forms" action="" method="post">
+      <label>Name : </label>
+      <input type="text" name="FN" value="" size="30" placeholder="Enter your first name" maxlength="50" required><br><br>
+      <label>Surname : </label>
+      <input type="text" name="LN" value="" size="30" placeholder="Enter your last name" maxlength="50" required><br><br>
+      <label>Email : </label>
+      <input type="email" name="" value="" size="30" placeholder="Enter your email" maxlength="50" required><br><br>
+      <label>Mob No. : </label>
+      <input type="number" name="MobNO" value="" maxlength="10" placeholder="Enter your 10 digit mobile number" required><br><br>
+      <label>Address : </label>
+      <input type="text" name="Address" value="" maxlength="200" size="40" placeholder="Enter your address"><br><br>
+
+      <label>Country : </label>
+      <select class="" name="">
+        <option value="INDIA" selected>India</option>
+        <option value="USA">USA</option>
+        <option value="JAPAN">Japan</option>
+        <option value="KUWAIT">Kuwait</option>
+        <option value="SOUTH KOREA">South Korea</option>
+        <option value="SRI LANKA">Sri Lanka</option>
+        <option value="THAILAND">Thailand</option>
+        <option value="AUSTRALIA">Australia</option>
+      </select>
+      <br><br>
+
+      <label>Age : </label>
+      <input type="number" name="age" value="" min="18" max="99" required><br><br>
+
+      <label>Gender : </label><br>
+      <input type="radio" name="Gender" value="Male">Male <br>
+      <input type="radio" name="Gender" value="Female">Female <br>
+      <input type="radio" name="Gender" value="Others">Others <br><br>
+
+      <label>DoB : </label>
+      <input type="date" name="" value="" required><br><br>
+      <label>Password : </label>
+      <input type="password" name="" value="" placeholder="Enter your password" required><br><br>
+      <br>
+
+      <input type="submit" name="" value="Sign Up">
+      <input type="reset" name="" value="Reset"><br>
+      <p>Already have an account?
+        <button type="button" name="login" id="login" class="buttons" onclick="window.open('SignIn.html')">Log In</button>
+      </p>
+    </form>
+    <br>
+  </div>
+
+  <div class="footer">
+    <div class="" id="aboutus">
+      <h3>About Us</h3>
+      <p style="position:relative; bottom:20px;">
+        We, the team of BeSanta are from Goa, India who help you find the right people for you to donate through this Website
+      </p>
+    </div>
+    <hr style="margin-top:0px;">
+
+    <div class="" id="Quicklinks">
+      <h3>Quick Links</h3>
+      <button type="button" name="ContactUs" id="contact" class="buttons" onclick="window.open('contact.html')">Contact Us</button>
+    </div>
+  </div>
+
+</body>
+
+</html>

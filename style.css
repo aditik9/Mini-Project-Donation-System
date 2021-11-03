@@ -1,0 +1,87 @@
+/*
+beige : #FFF8E5
+yellow : #FFB344
+teal : #00A19D
+red : #E05D5D
+*/
+h2,h3,.bigButtons{
+  font-weight: bold;
+  color: #E05D5D;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: Garamond;
+  background-color: #FFF8E5;
+}
+.header{
+  font-size: 150%;
+  text-align: center;
+  color: white;
+  background-color: #FFB344;
+}
+#page-title{
+  color: white;
+  position: relative;
+  padding: 10px 10px 10px;
+  width: 100%;
+}
+.Account{
+  position: absolute;
+  left:87%;
+  text-align: right;
+}
+.buttons{
+  background-color: #E05D5D;
+  color: White;
+  border-radius: 15px;
+  border-color: inherit;
+  text-align: center;
+  padding: 7px;
+}
+hr{
+  margin-top: 2%;
+  border-style: dotted none none;
+  border-color: #E05D5D;
+  border-width: 10px;
+  width: 12%;
+}
+.slogan{
+  position: relative;
+  font-style: italic;
+  bottom:30px;
+}
+.block-buttons-section{
+  position: relative;
+  text-align: center;
+  margin: 5% 0%;
+}
+.bigButtons{
+  background-color: #E05D5D;
+  color: white;
+  margin: 0% 3% 5%;
+  padding: 10% 10% 10%;
+  font-family: Garamond;
+  font-size: 120%;
+  border-radius: 25%;
+}
+
+.Forms{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.footer{
+  position: relative;
+  padding: 5px;
+  background-color: #FFB344;
+  color: white;
+}
+#aboutus{
+  text-align: left;
+}
+#Quicklinks{
+  text-align: center;
+}
