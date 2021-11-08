@@ -7,12 +7,12 @@
   <link rel="stylesheet" href="style.css">
   <style media="screen">
     .itemsinfo,.listofitems{
-      font-size: 125%;
+      font-size: 130%;
     }
   </style>
 </head>
 
-<body style="text-align:left">
+<body>
   <div class="header">
     <div id="page-title">
       <div class="Account">
@@ -24,8 +24,8 @@
     </div>
   </div>
 
-  <div class="itemsinfo">
-    <h2 style="color: #E05D5D">The things you can donate::</h2>
+  <div id="itemsinfo"  style="text-align:left; margin-left:10px;">
+    <h2>The things you can donate::</h2>
     <div>
       <p style="position:relative;bottom:20px;">
         You can donate anything on BeSanta which will benefit the people who are in need and improve thier standard of living
@@ -39,9 +39,11 @@
   </div>
 
   <hr>
-  <div class="listofitems" align=center>
-    <h3>Type of items you can donate : </h3>
-    <table border="10px" align="center" cellspacing="20px">
+  <br>
+
+  <div class="listofitems" style="margin-bottom:2%;">
+    <table align="center" cellspacing=20>
+      <caption>Type of items you can donate : </caption>
       <tr>
         <td>
           <ul>
@@ -68,6 +70,20 @@
     </table>
   </div>
 
-</body>
+  <div class="footer">
+    <div class="" id="aboutus">
+      <h3>About Us</h3>
+      <p style="position:relative; bottom:20px;">
+        We, the team of BeSanta are from Goa, India who help you find the right people for you to donate through this Website
+      </p>
+    </div>
+    <hr style="margin-top:0px;">
 
+    <div class="" id="Quicklinks">
+      <h3>Quick Links</h3>
+      <button type="button" name="ContactUs" id="contact" class="buttons" onclick="window.open('contact.html')">Contact Us</button>
+    </div>
+  </div>
+
+</body>
 </html>
