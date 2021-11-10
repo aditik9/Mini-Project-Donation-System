@@ -2,10 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Who Can Donate</title>
+    <title>How to Donate</title>
     <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      #steps{
+        font-size: 120%;
+        text-align:left;
+        margin:10px;
+      }
+    </style>
   </head>
   <body>
+
     <div class="header">
       <div id="page-title">
         <button type="button" name="home-button" id="home-button" onclick="document.location.href='beSanta_homepage.html'"></button>
@@ -18,17 +26,22 @@
       </div>
     </div>
 
-    <div class="content" style="margin:5%;">
-      <h2>Who can Donate?</h2>
-      <p>Anyone who wishes to Donate!!!</p>
-
-      <div class="page-buttons" style="margin:2%;">
-        <button type="button" class="buttons" name="go-back" onclick="window.close()">Go back</button><br>
-        <button type="button" name="what_to_donate" id="what" class="buttons" onclick="document.location.href='whatToDonate.html'">What to Donate</button><br>
-        <button type="button" name="How_to_donate" id="how" class="buttons" onclick="document.location.href='HowToDonate.html'">How to Donate</button>
-      </div>
+    <div id="steps">
+      <h2>Steps to be followed : </h2>
+      <ol>
+        <li>Log In/ Register into your Account</li>
+        <li>Click on Donate button</li>
+        <li>Fill in the item details</li>
+        <li>Add an Image of the item</li>
+        <li>Click on Submit</li>
+      </ol>
     </div>
 
+    <div class="page-buttons" style="margin:2%;">
+      <button type="button" class="buttons" name="go-back" onclick="window.close()">Go back</button><br>
+      <button type="button" name="who_can_donate" id="who" class="buttons" onclick="document.location.href='whoCanDonate.html'">Who Can Donate</button><br>
+      <button type="button" name="what_to_donate" id="what" class="buttons" onclick="document.location.href='whatToDonate.html'">What to Donate</button><br>
+    </div>
 
     <div class="footer">
       <div class="" id="aboutus">

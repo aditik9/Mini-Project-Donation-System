@@ -2,10 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Who Can Donate</title>
+    <title>Delete Item</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
     <div class="header">
       <div id="page-title">
         <button type="button" name="home-button" id="home-button" onclick="document.location.href='beSanta_homepage.html'"></button>
@@ -18,17 +19,26 @@
       </div>
     </div>
 
-    <div class="content" style="margin:5%;">
-      <h2>Who can Donate?</h2>
-      <p>Anyone who wishes to Donate!!!</p>
-
-      <div class="page-buttons" style="margin:2%;">
-        <button type="button" class="buttons" name="go-back" onclick="window.close()">Go back</button><br>
-        <button type="button" name="what_to_donate" id="what" class="buttons" onclick="document.location.href='whatToDonate.html'">What to Donate</button><br>
-        <button type="button" name="How_to_donate" id="how" class="buttons" onclick="document.location.href='HowToDonate.html'">How to Donate</button>
-      </div>
+    <div class="Forms">
+      <h2> Enter the item details to be deleted</h2>
+      <form class="Adding-item" action="" method="post">
+        <label>Enter the item name : </label>
+        <input type="text" name="item-name" value="" required><br><br>
+        <label>Select category : </label>
+        <select class="category" name="category" required>
+          <option value="Clothes" selected>Clothes</option>
+          <option value="Shoes">Shoes</option>
+          <option value="Toys">Toys</option>
+          <option value="Kitchenware">Kitchenware</option>
+          <option value="Appliances">Appliances</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Books">Books</option>
+          <option value="Furniture">Furniture</option>
+          <option value="Groceries">Groceries</option>
+        </select><br><br>
+      </form>
+      <button type="button" class="buttons" name="go-back" onclick="window.close()" style="margin-top:5px;">Go back</button><br>
     </div>
-
 
     <div class="footer">
       <div class="" id="aboutus">
@@ -44,6 +54,7 @@
         <button type="button" name="ContactUs" id="contact" class="buttons" onclick="window.open('contact.html')">Contact Us</button>
       </div>
     </div>
+
 
   </body>
 </html>

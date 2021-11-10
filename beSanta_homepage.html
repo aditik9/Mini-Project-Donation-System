@@ -10,6 +10,7 @@
 
   <div class="header">
     <div id="page-title">
+      <button type="button" name="home-button" id="home-button" onclick="document.location.href='beSanta_homepage.html'"></button>
       <div class="Account">
         <button type="button" name="Register" id="Register" class="buttons" onclick="window.open('SignUp.html')">Register</button>
         <button type="button" name="login" id="login" class="buttons" onclick="window.open('SignIn.html')">Log In</button>
@@ -20,10 +21,20 @@
   </div>
   <hr>
 
-  <div class="block-buttons-section">
-      <button type="button" name="who_can_donate" id="who" class="bigButtons" onclick="window.open('whoCanDonate.html')">WHO<br>CAN<br>DONATE</button>
-      <button type="button" name="what_to_donate" id="what" class="bigButtons" onclick="window.open('whatToDonate.html')">WHAT<br>TO<br>DONATE</button>
-      <button type="button" name="How_to_donate" id="how" class="bigButtons" onclick="window.open('')">HOW<br>TO<br>DONATE</button>
+  <div class="block-buttons-section" id="info-block-buttons">
+    <button type="button" name="who_can_donate" id="who" class="bigButtons" onclick="window.open('whoCanDonate.html')">WHO<br>CAN<br>DONATE</button>
+    <button type="button" name="what_to_donate" id="what" class="bigButtons" onclick="window.open('whatToDonate.html')">WHAT<br>TO<br>DONATE</button>
+    <button type="button" name="How_to_donate" id="how" class="bigButtons" onclick="window.open('HowToDonate.html')">HOW<br>TO<br>DONATE</button>
+  </div>
+  <hr>
+
+  <div class="block-buttons-section" id="edit-block-button">
+    <button type="button" class="bigButtons" name="search-item-button" id="search-item" onclick="window.open('Search-Display.html')">SEARCH<br>ITEM</button>
+    <button type="button" class="bigButtons" name="add-item-button" id="add-item" onclick="window.open('AddItem.html')">DONATE<br>ITEM</button><br><br><br>
+    <button type="button" class="bigButtons" name="delete-item-button" id="delete-item" onclick="window.open('DeleteItem.html')">DELETE<br>ITEM</button>
+    <button type="button" class="bigButtons" name="update-item-button" id="update-item" onclick="window.open('UpdateItem.html')">UPDATE<br>ITEM</button>
+
+
   </div>
 
   <div class="footer">

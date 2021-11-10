@@ -3,14 +3,28 @@ beige : #FFF8E5
 yellow : #FFB344
 teal : #00A19D
 red : #E05D5D
+background-image: url('pale-golden-pink.jpg');
 */
 
 h2,h3,.bigButtons,caption{
   font-weight: bold;
   color: #E05D5D;
 }
+#home-button{
+  margin: 10px;
+  width: 3%;
+  height: 15%;
+  border: 0px;
+  background-color: inherit;
+  background-image: url("home-icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+
 body{
-  background-image: url('pale-golden-pink.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0px;
@@ -63,8 +77,12 @@ hr{
 }
 .bigButtons{
   background-color: #E05D5D;
+  background-image: url("button-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
   color: white;
-  margin: 0% 3% 5%;
+  margin: 0% 3% 0%;
   padding: 10% 10% 10%;
   font-family: Garamond;
   font-size: 120%;
@@ -79,7 +97,9 @@ hr{
 
 .footer{
   position: relative;
+  width: 100%;
   padding: 5px;
+  bottom: 0;
   background-color: #FFB344;
   color: white;
 }

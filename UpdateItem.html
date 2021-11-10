@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Update Item</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div id="page-title">
+        <button type="button" name="home-button" id="home-button" onclick="document.location.href='beSanta_homepage.html'"></button>
+        <div class="Account">
+          <button type="button" name="Register" id="Register" class="buttons" onclick="window.open('SignUp.html')">Register</button>
+          <button type="button" name="login" id="login" class="buttons" onclick="window.open('SignIn.html')">Log In</button>
+        </div>
+        <h1>BeSanta : Donation System</h1>
+        <p class="slogan">Let's be someone's Santa!</p>
+      </div>
+    </div>
+
+    <div class="Forms">
+      <h2> Enter the item details to be deleted</h2>
+      <form class="Adding-item" action="" method="post">
+        <label>Enter the item name : </label>
+        <input type="text" name="item-name" value="" required><br><br>
+        <label>Select category : </label>
+        <select class="category" name="category" required>
+          <option value="Clothes" selected>Clothes</option>
+          <option value="Shoes">Shoes</option>
+          <option value="Toys">Toys</option>
+          <option value="Kitchenware">Kitchenware</option>
+          <option value="Appliances">Appliances</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Books">Books</option>
+          <option value="Furniture">Furniture</option>
+          <option value="Groceries">Groceries</option>
+        </select><br><br>
+        <label>Brand : </label>
+        <input type="text" name="Brand" value=""><br><br>
+        <label>Enter the Image : </label>
+        <input type="file" name="" value=""accept="image/*"><br><br>
+        <label>Quantity : </label>
+        <input type="number" name="quantity" value="1" style="width:50px;"><br><br>
+        <label>Weight : </label>
+        <input type="number" name="weight" value=""><br><br>
+        <input type="submit" name="Submit" value="Submit">
+      </form>
+      <button type="button" class="buttons" name="go-back" onclick="window.close()" style="margin-top:5px;">Go back</button><br>
+    </div>
+
+    <div class="footer">
+      <div class="" id="aboutus">
+        <h3>About Us</h3>
+        <p style="position:relative; bottom:20px;">
+          We, the team of BeSanta are from Goa, India who help you find the right people for you to donate through this Website
+        </p>
+      </div>
+      <hr style="margin-top:0px;">
+
+      <div class="" id="Quicklinks">
+        <h3>Quick Links</h3>
+        <button type="button" name="ContactUs" id="contact" class="buttons" onclick="window.open('contact.html')">Contact Us</button>
+      </div>
+    </div>
+  </body>
+</html>
