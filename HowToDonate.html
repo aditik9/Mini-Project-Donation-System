@@ -12,7 +12,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="qpages">
 
     <div class="header">
       <div id="page-title">
@@ -26,35 +26,43 @@
       </div>
     </div>
 
-    <div id="steps">
-      <h2>Steps to be followed : </h2>
-      <ol>
-        <li>Log In/ Register into your Account</li>
-        <li>Click on Donate button</li>
-        <li>Fill in the item details</li>
-        <li>Add an Image of the item</li>
-        <li>Click on Submit</li>
-      </ol>
+    <div class="main-container">
+      <br>
+      <div id="steps">
+        <h2>Steps to be followed : </h2>
+        <ol>
+          <li>Log In/ Register into your Account</li>
+          <li>Click on Donate button</li>
+          <li>Fill in the item details</li>
+          <li>Add an Image of the item</li>
+          <li>Click on Submit</li>
+        </ol>
+      </div>
+
+      <div class="page-buttons" style="margin:2%;">
+        <button type="button" class="buttons" name="go-back" onclick="window.close()">Go back</button><br>
+        <button type="button" name="who_can_donate" id="who" class="buttons" onclick="document.location.href='whoCanDonate.html'">Who Can Donate</button><br>
+        <button type="button" name="what_to_donate" id="what" class="buttons" onclick="document.location.href='whatToDonate.html'">What to Donate</button><br>
+      </div><br>
     </div>
 
-    <div class="page-buttons" style="margin:2%;">
-      <button type="button" class="buttons" name="go-back" onclick="window.close()">Go back</button><br>
-      <button type="button" name="who_can_donate" id="who" class="buttons" onclick="document.location.href='whoCanDonate.html'">Who Can Donate</button><br>
-      <button type="button" name="what_to_donate" id="what" class="buttons" onclick="document.location.href='whatToDonate.html'">What to Donate</button><br>
-    </div>
-
-    <div class="footer">
+    <div class="footer" id="page-footer">
       <div class="" id="aboutus">
         <h3>About Us</h3>
-        <p style="position:relative; bottom:20px;">
+        <p style="position:relative;">
           We, the team of BeSanta are from Goa, India who help you find the right people for you to donate through this Website
-        </p>
+        </p><br>
       </div>
-      <hr style="margin-top:0px;">
 
       <div class="" id="Quicklinks">
         <h3>Quick Links</h3>
-        <button type="button" name="ContactUs" id="contact" class="buttons" onclick="window.open('contact.html')">Contact Us</button>
+        <p>
+          <a class="links" href="contact.html">Contact Us</a>
+          <a class="links" href="Search-Display.html">Search Items</a>
+          <a class="links" href="AddItem.html">Add Item</a>
+          <a class="links" href="DeleteItem.html">Delete Items</a>
+          <a class="links" href="UpdateItem.html">Update Items</a>
+        </p>
       </div>
     </div>
 

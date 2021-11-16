@@ -9,10 +9,16 @@
     .itemsinfo,.listofitems{
       font-size: 130%;
     }
+    table{
+      background-color: #FFF8E5;
+    }
+    caption{
+      font-weight: bold;
+    }
   </style>
 </head>
 
-<body>
+<body class="qpages">
   <div class="header">
     <div id="page-title">
       <button type="button" name="home-button" id="home-button" onclick="document.location.href='beSanta_homepage.html'"></button>
@@ -25,70 +31,76 @@
     </div>
   </div>
 
-  <div id="itemsinfo"  style="text-align:left; margin-left:10px;">
-    <h2>The things you can donate::</h2>
-    <div>
-      <p style="position:relative;bottom:20px;">
-        You can donate anything on BeSanta which will benefit the people who are in need and improve thier standard of living
-        Points to keep in mind </p>
-        The items you will be donating should be <br>
+  <div class="main-container">
+    br
+    <div id="itemsinfo"  style="text-align:left; margin-left:10px;">
+      <h2>The things you can donate::</h2>
+      <div>
+        <p style="position:relative;bottom:20px;">
+          You can donate anything on BeSanta which will benefit the people who are in need and improve thier standard of living
+          Points to keep in mind </p>
+          The items you will be donating should be <br>
+      </div>
+      <ol>
+        <li>Usable</li>
+        <li>having no damage or least damage</li>
+      </ol>
     </div>
-    <ol>
-      <li>Usable</li>
-      <li>having no damage or least damage</li>
-    </ol>
+    <br>
+
+    <div class="listofitems" style="margin-bottom:2%;">
+      <table align="center" cellspacing=20>
+        <caption>Type of items you can donate : </caption>
+        <tr>
+          <td>
+            <ul>
+              <li>Clothes</li>
+              <li>Shoes</li>
+              <li>Toys</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Kitchenware</li>
+              <li>Appliances</li>
+              <li>Electronics</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Books</li>
+              <li>Furniture</li>
+              <li>Groceries</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="page-buttons" style="margin:2%;">
+      <button type="button" class="buttons" name="go-back" onclick="window.close()">Go back</button><br>
+      <button type="button" name="who_can_donate" id="who" class="buttons" onclick="document.location.href='whoCanDonate.html'">Who Can Donate</button><br>
+      <button type="button" name="How_to_donate" id="how" class="buttons" onclick="document.location.href='HowToDonate.html'">How to Donate</button>
+    </div><br>
   </div>
 
-  <hr>
-  <br>
-
-  <div class="listofitems" style="margin-bottom:2%;">
-    <table align="center" cellspacing=20>
-      <caption>Type of items you can donate : </caption>
-      <tr>
-        <td>
-          <ul>
-            <li>Clothes</li>
-            <li>Shoes</li>
-            <li>Toys</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Kitchenware</li>
-            <li>Appliances</li>
-            <li>Electronics</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Books</li>
-            <li>Furniture</li>
-            <li>Groceries</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="page-buttons" style="margin:2%;">
-    <button type="button" class="buttons" name="go-back" onclick="window.close()">Go back</button><br>
-    <button type="button" name="who_can_donate" id="who" class="buttons" onclick="document.location.href='whoCanDonate.html'">Who Can Donate</button><br>
-    <button type="button" name="How_to_donate" id="how" class="buttons" onclick="document.location.href='HowToDonate.html'">How to Donate</button>
-  </div>
-
-  <div class="footer">
+  <div class="footer" id="page-footer">
     <div class="" id="aboutus">
       <h3>About Us</h3>
-      <p style="position:relative; bottom:20px;">
+      <p style="position:relative;">
         We, the team of BeSanta are from Goa, India who help you find the right people for you to donate through this Website
-      </p>
+      </p><br>
     </div>
-    <hr style="margin-top:0px;">
 
     <div class="" id="Quicklinks">
       <h3>Quick Links</h3>
-      <button type="button" name="ContactUs" id="contact" class="buttons" onclick="window.open('contact.html')">Contact Us</button>
+      <p>
+        <a class="links" href="contact.html">Contact Us</a>
+        <a class="links" href="Search-Display.html">Search Items</a>
+        <a class="links" href="AddItem.html">Add Item</a>
+        <a class="links" href="DeleteItem.html">Delete Items</a>
+        <a class="links" href="UpdateItem.html">Update Items</a>
+      </p>
     </div>
   </div>
 

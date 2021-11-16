@@ -3,10 +3,9 @@ beige : #FFF8E5
 yellow : #FFB344
 teal : #00A19D
 red : #E05D5D
-background-image: url('pale-golden-pink.jpg');
 */
 
-h2,h3,.bigButtons,caption{
+h2,h3,.bigButtons,.content{
   font-weight: bold;
   color: #E05D5D;
 }
@@ -25,16 +24,31 @@ h2,h3,.bigButtons,caption{
 }
 
 body{
+  background-image: url('bgimg1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
   margin: 0px;
   padding: 0px;
   text-align: center;
   font-family: Garamond;
   background-color: #FFF8E5;
 }
+
+.qpages{
+  background-image: url('bgimg3.jpg');
+}
+
+.main-container{
+  font-size: 110%;
+  background-color: inherit;
+  opacity: 0.9;
+}
+
 .header{
-  font-size: 150%;
+  font-size: 140%;
   text-align: center;
   color: white;
   background-color: #FFB344;
@@ -42,8 +56,14 @@ body{
 #page-title{
   color: white;
   position: relative;
-  padding: 10px 10px 10px;
+  padding: 5px 5px;
   width: 100%;
+}
+
+.slogan{
+  position: relative;
+  font-style: italic;
+  bottom:30px;
 }
 .Account{
   position: absolute;
@@ -65,15 +85,11 @@ hr{
   border-width: 10px;
   width: 12%;
 }
-.slogan{
-  position: relative;
-  font-style: italic;
-  bottom:30px;
-}
+
 .block-buttons-section{
   position: relative;
   text-align: center;
-  margin: 5% 0%;
+  margin: 3% 0%;
 }
 .bigButtons{
   background-color: #E05D5D;
@@ -83,7 +99,7 @@ hr{
 
   color: white;
   margin: 0% 3% 0%;
-  padding: 10% 10% 10%;
+  padding: 5% 5% 5%;
   font-family: Garamond;
   font-size: 120%;
   border-radius: 25%;
@@ -93,6 +109,17 @@ hr{
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.links{
+  font-size: 110%;
+  padding: 1%;
+  color: #E05D5D;
+}
+
+#page-footer h3,p{
+  margin:0px;
+  padding:0px;
 }
 
 .footer{

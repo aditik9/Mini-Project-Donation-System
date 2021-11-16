@@ -19,39 +19,48 @@
       </div>
     </div>
 
-    <div class="Forms">
-      <h2> Enter the item details to be deleted</h2>
-      <form class="Adding-item" action="" method="post">
-        <label>Enter the item name : </label>
-        <input type="text" name="item-name" value="" required><br><br>
-        <label>Select category : </label>
-        <select class="category" name="category" required>
-          <option value="Clothes" selected>Clothes</option>
-          <option value="Shoes">Shoes</option>
-          <option value="Toys">Toys</option>
-          <option value="Kitchenware">Kitchenware</option>
-          <option value="Appliances">Appliances</option>
-          <option value="Electronics">Electronics</option>
-          <option value="Books">Books</option>
-          <option value="Furniture">Furniture</option>
-          <option value="Groceries">Groceries</option>
-        </select><br><br>
-      </form>
-      <button type="button" class="buttons" name="go-back" onclick="window.close()" style="margin-top:5px;">Go back</button><br>
+    <div class="main-container">
+      <br>
+      <div class="Forms">
+        <h2> Enter the item details to be deleted</h2>
+        <form class="Adding-item" action="" method="post">
+          <label>Enter the item name : </label>
+          <input type="text" name="item-name" value="" required><br><br>
+          <label>Select category : </label>
+          <select class="category" name="category" required>
+            <option value="Clothes" selected>Clothes</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Toys">Toys</option>
+            <option value="Kitchenware">Kitchenware</option>
+            <option value="Appliances">Appliances</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Books">Books</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Groceries">Groceries</option>
+          </select><br><br>
+          <input type="submit" name="deleteitem" value="Delete"><br>
+        </form>
+        <button type="button" class="buttons" name="go-back" onclick="window.close()" style="margin-top:5px;">Go back</button><br>
+      </div><br>
     </div>
 
-    <div class="footer">
+    <div class="footer" id="page-footer">
       <div class="" id="aboutus">
         <h3>About Us</h3>
-        <p style="position:relative; bottom:20px;">
+        <p style="position:relative;">
           We, the team of BeSanta are from Goa, India who help you find the right people for you to donate through this Website
-        </p>
+        </p><br>
       </div>
-      <hr style="margin-top:0px;">
 
       <div class="" id="Quicklinks">
         <h3>Quick Links</h3>
-        <button type="button" name="ContactUs" id="contact" class="buttons" onclick="window.open('contact.html')">Contact Us</button>
+        <p>
+          <a class="links" href="contact.html">Contact Us</a>
+          <a class="links" href="Search-Display.html">Search Items</a>
+          <a class="links" href="AddItem.html">Add Item</a>
+          <a class="links" href="DeleteItem.html">Delete Items</a>
+          <a class="links" href="UpdateItem.html">Update Items</a>
+        </p>
       </div>
     </div>
 

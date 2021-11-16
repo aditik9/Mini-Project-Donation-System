@@ -16,33 +16,41 @@
     </div>
   </div>
 
-  <div class="Forms">
-    <h1>Sign In</h1>
-    <form class="Login-form" action="" method="post">
-      <label>Email : </label>
-      <input type="email" name="" value="" size="20" placeholder="Enter your username" required><br><br>
-      <label>Password : </label>
-      <input type="password" name="" value="" placeholder="Enter your password" required><br><br>
-      <input type="submit" name="Submit" value="Submit">
-      <input type="reset" name="Reset" value="Reset">
-      <p>Don't have an account?
-        <button type="button" name="Register" id="Register" class="buttons" onclick="window.open('SignUp.html')">Register</button>
-      </p>
-    </form>
+  <div class="main-container">
+    <br>
+    <div class="Forms">
+      <h1>Sign In</h1>
+      <form class="Login-form" action="" method="post">
+        <label>Email : </label>
+        <input type="email" name="" value="" size="20" placeholder="Enter your username" required><br><br>
+        <label>Password : </label>
+        <input type="password" name="" value="" placeholder="Enter your password" required><br><br>
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" name="Reset" value="Reset">
+        <p>Don't have an account?
+          <button type="button" name="Register" id="Register" class="buttons" onclick="window.open('SignUp.html')">Register</button>
+        </p>
+      </form>
+    </div><br>
   </div>
 
-  <div class="footer">
+  <div class="footer" id="page-footer">
     <div class="" id="aboutus">
       <h3>About Us</h3>
-      <p style="position:relative; bottom:20px;">
+      <p style="position:relative;">
         We, the team of BeSanta are from Goa, India who help you find the right people for you to donate through this Website
-      </p>
+      </p><br>
     </div>
-    <hr style="margin-top:0px;">
 
     <div class="" id="Quicklinks">
       <h3>Quick Links</h3>
-      <button type="button" name="ContactUs" id="contact" class="buttons" onclick="window.open('contact.html')">Contact Us</button>
+      <p>
+        <a class="links" href="contact.html">Contact Us</a>
+        <a class="links" href="Search-Display.html">Search Items</a>
+        <a class="links" href="AddItem.html">Add Item</a>
+        <a class="links" href="DeleteItem.html">Delete Items</a>
+        <a class="links" href="UpdateItem.html">Update Items</a>
+      </p>
     </div>
   </div>
 
