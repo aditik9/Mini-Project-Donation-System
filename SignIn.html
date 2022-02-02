@@ -10,7 +10,7 @@
 <body>
   <div class="header">
     <div id="page-title">
-      <button type="button" name="home-button" id="home-button" onclick="document.location.href='beSanta_homepage.html'"></button>
+      <button type="button" name="home-button" id="home-button" onclick="document.location.href='index.php'"></button>
       <h1>BeSanta : Donation System</h1>
       <p class="slogan">Let's be someone's Santa!</p>
     </div>
@@ -20,11 +20,11 @@
     <br>
     <div class="Forms">
       <h1>Sign In</h1>
-      <form class="Login-form" action="" method="post">
+      <form class="Login-form" action="login.php" method="POST">
         <label>Email : </label>
-        <input type="email" name="" value="" size="20" placeholder="Enter your username" required><br><br>
+        <input type="email" name="email" value="" size="20" placeholder="Enter your username" required><br><br>
         <label>Password : </label>
-        <input type="password" name="" value="" placeholder="Enter your password" required><br><br>
+        <input type="password" name="password" value="" placeholder="Enter your password" required><br><br>
         <input type="submit" name="Submit" value="Submit">
         <input type="reset" name="Reset" value="Reset">
         <p>Don't have an account?

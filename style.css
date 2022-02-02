@@ -9,6 +9,7 @@ h2,h3,.bigButtons,.content{
   font-weight: bold;
   color: #E05D5D;
 }
+
 #home-button{
   margin: 10px;
   width: 3%;
@@ -119,7 +120,7 @@ hr{
 
 #page-footer h3,p{
   margin:0px;
-  padding:0px;
+  padding:0px 0px 16px 0px;
 }
 
 .footer{
@@ -141,3 +142,4 @@ table{
   border: 1px solid;
   border-radius: 10px;
 }
+

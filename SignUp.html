@@ -11,7 +11,7 @@
 <body>
   <div class="header">
     <div id="page-title">
-      <button type="button" name="home-button" id="home-button" onclick="document.location.href='beSanta_homepage.html'"></button>
+      <button type="button" name="home-button" id="home-button" onclick="document.location.href='index.php'"></button>
       <h1>BeSanta : Donation System</h1>
       <p class="slogan">Let's be someone's Santa!</p>
     </div>
@@ -21,7 +21,7 @@
     <br>
     <div class="Forms" style="margin-top: 0%;">
       <h1>Sign Up</h1>
-      <form class="Register-forms" onsubmit="return validate();" method="post">
+      <form class="Register-forms" onsubmit="return validate();" action="signup.php" method="POST">
 
         <label>Username : </label>
         <input type="text" id="username" name="username" size="30" placeholder="Enter username" maxlength="50">
@@ -33,12 +33,12 @@
         <br><br>
         
         <label>Mob No. : </label>
-        <input type="number" id="mob" name="MobNO" value="" maxlength="10" placeholder="Enter your 10 digit mobile number">
+        <input type="number" id="mob" name="mobno" value="" maxlength="10" placeholder="Enter your 10 digit mobile number">
         <label id="a1" style="visibility: hidden;">Invalid</label>
         <br><br>
 
         <label>Address : </label>
-        <input type="text" id="add" name="Address" maxlength="200" size="40" placeholder="Enter your address"><br><br>
+        <input type="text" id="add" name="address" maxlength="200" size="40" placeholder="Enter your address"><br><br>
 
         <label>Country : </label>
         <select id="country" class="" name="country">
@@ -60,9 +60,9 @@
         <br><br>
 
         <label>Gender : </label><br>
-        <input type="radio" id="male" name="Gender" value="Male">Male <br>
-        <input type="radio" id="female" name="Gender" value="Female">Female <br>
-        <input type="radio" id="others" name="Gender" value="Others">Others <br><br>
+        <input type="radio" id="male" name="gender" value="Male">Male <br>
+        <input type="radio" id="female" name="gender" value="Female">Female <br>
+        <input type="radio" id="others" name="gender" value="Others">Others <br><br>
 
         <label>DoB : </label>
         <input id="dob" type="date" name="dob"><br><br>
@@ -73,7 +73,6 @@
         <label></label>
         <br>
         
-
         <input type="checkbox" id="tnc" name="tnc" value="agree">Do you agree with the terms and conditons?<br><br>
 
         <input type="submit" id="submitButton" class="buttons" name="Submit" value="Sign Up">
