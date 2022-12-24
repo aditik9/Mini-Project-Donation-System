@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>BeSanta</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
   <style>
     .navbuttons{
       background-color:#E05D5D;
